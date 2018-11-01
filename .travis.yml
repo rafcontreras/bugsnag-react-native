@@ -68,4 +68,4 @@ jobs:
         - yarn install
         - ./node_modules/.bin/react-native link
         - cd ios
-        - xcodebuild -project BugsnagReactNativeExample.xcodeproj -scheme BugsnagReactNativeExample build CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO -quiet
+        - xcodebuild -project BugsnagReactNativeExample.xcodeproj -scheme BugsnagReactNativeExample build CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO -UseModernBuildSystem=NO -quiet
