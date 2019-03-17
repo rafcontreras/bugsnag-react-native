@@ -2,7 +2,7 @@ package com.bugsnag;
 
 import android.app.Activity;
 import android.content.Context;
-import android.support.annotation.NonNull;
+import androidx.annotation.NonNull;
 
 import com.bugsnag.android.BreadcrumbType;
 import com.bugsnag.android.Bugsnag;
